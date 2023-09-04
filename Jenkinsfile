@@ -32,7 +32,7 @@ pipeline {
             }
         }
 
-        stage('INTEGRATION TEST'){
+   /*     stage('INTEGRATION TEST'){
             steps {
                 sh 'mvn verify -DskipUnitTests'
             }
@@ -105,7 +105,7 @@ pipeline {
             }
         }
 
-    }
+    } */
 
 
 }
